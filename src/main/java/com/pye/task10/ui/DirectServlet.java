@@ -20,7 +20,7 @@ public class DirectServlet extends HttpServlet {
 			throws ServletException, IOException {
 
 
-		final String content = "Hello world";
+		final String content = "Hello world"; //
 
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
